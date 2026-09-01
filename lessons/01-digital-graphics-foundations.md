@@ -4,7 +4,7 @@ title: "Foundations of Digital Graphics"
 lesson: 1
 ---
 
-# Foundations of Digital Graphics
+# Foundations of Digital Graphics test
 
 Digital graphic design is not defined by a particular software package.
 
