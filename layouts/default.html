@@ -13,29 +13,126 @@
 <body>
 
 <header class="site-header">
-    <div class="container">
-        <a class="site-title"
-           href="{{ site.baseurl }}/">
+    <div class="site-header-inner">
+
+        <a class="site-title" href="{{ site.baseurl }}/">
             Digital Graphics Foundations
         </a>
 
-        <nav>
+        <nav class="top-nav">
             <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/lessons/01-digital-graphics-foundations.html">
-                Lesson 1
-            </a>
+            <a href="{{ site.baseurl }}/about.html">About</a>
         </nav>
+
     </div>
 </header>
 
-<main class="container article">
-    {{ content }}
-</main>
+<div class="page-layout">
 
-<footer>
-    <div class="container">
-        Digital Graphics Foundations
+    <aside class="sidebar">
+
+        <div class="sidebar-section">
+            <h3>Lessons</h3>
+
+            <a href="{{ site.baseurl }}/lessons/01-digital-graphics-foundations.html"
+               class="{% if page.lesson == 1 %}active{% endif %}">
+                <span>01</span>
+                Foundations
+            </a>
+
+            <a href="#">
+                <span>02</span>
+                Point, Line & Plane
+            </a>
+
+            <a href="#">
+                <span>03</span>
+                Vector Geometry
+            </a>
+
+            <a href="#">
+                <span>04</span>
+                Scale & Transformation
+            </a>
+
+            <a href="#">
+                <span>05</span>
+                Color
+            </a>
+
+            <a href="#">
+                <span>06</span>
+                Rhythm & Balance
+            </a>
+
+            <a href="#">
+                <span>07</span>
+                Gestalt Principles
+            </a>
+
+            <a href="#">
+                <span>08</span>
+                Hierarchy & Framing
+            </a>
+
+            <a href="#">
+                <span>09</span>
+                Grid & Modularity
+            </a>
+
+            <a href="#">
+                <span>10</span>
+                Texture & Pattern
+            </a>
+
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Resources</h3>
+
+            <a href="#">Lecture PDFs</a>
+            <a href="#">Practical Labs</a>
+            <a href="#">Images & Figures</a>
+        </div>
+
+    </aside>
+
+
+    <main class="article">
+
+        {% if page.lesson %}
+        <div class="lesson-label">
+            Lesson {{ page.lesson }}
+        </div>
+        {% endif %}
+
+        {{ content }}
+
+    </main>
+
+</div>
+
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div>
+            <strong>Digital Graphics Foundations</strong>
+            <p>Software-independent foundations of digital graphic design.</p>
+        </div>
+
+        <div class="author">
+            Written and maintained by
+            <a href="linkedin.com/in/hano-alolyan"
+               target="_blank"
+               rel="noopener noreferrer">
+                Alhanouf Alolyan
+            </a>
+        </div>
+
     </div>
+
 </footer>
 
 </body>

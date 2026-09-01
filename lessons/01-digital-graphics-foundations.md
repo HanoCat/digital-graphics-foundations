@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Lesson 1 — Foundations of Digital Graphics"
+title: "Foundations of Digital Graphics"
+lesson: 1
 ---
 
 # Foundations of Digital Graphics
