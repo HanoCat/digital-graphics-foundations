@@ -1,3 +1,8 @@
+
+body {
+    background: pink !important;
+}
+
 :root {
     --text: #202124;
     --muted: #6b7280;
@@ -13,7 +18,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 10;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     line-height: 1.75;
     color: var(--text);
