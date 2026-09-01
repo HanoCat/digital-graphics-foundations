@@ -21,7 +21,7 @@
 
         <nav class="top-nav">
             <a href="{{ '/' | relative_url }}">Home</a>
-            <a href="{{ site.baseurl }}/about.html">About</a>
+            <a href="{{ '/about.html' | relative_url }}">About</a>
         </nav>
 
     </div>
@@ -34,8 +34,7 @@
         <div class="sidebar-section">
             <h3>Lessons</h3>
 
-            <a href="{{ site.baseurl }}/lessons/01-digital-graphics-foundations.html"
-               class="{% if page.lesson == 1 %}active{% endif %}">
+            <a href="{{ '/lessons/01-digital-graphics-foundations.html' | relative_url }}">
                 <span>01</span>
                 Foundations
             </a>
@@ -124,11 +123,11 @@
 
         <div class="author">
             Written and maintained by
-            <a href="linkedin.com/in/hano-alolyan"
-               target="_blank"
-               rel="noopener noreferrer">
-                Alhanouf Alolyan
-            </a>
+            <a href="https://www.linkedin.com/in/hano-alolyan"
+   target="_blank"
+   rel="noopener noreferrer">
+    Alhanouf Alolyan
+</a>
         </div>
 
     </div>
