@@ -210,20 +210,14 @@ A path is formed by points connected by segments.
 
 Paths may be:
 
-### Open paths
+### Open and Closed paths
 
-An open path has separate starting and ending points.
+An open path has separate starting and ending points. A closed path returns to its starting point and encloses an area.
 
-    ●────────────●
-
-### Closed paths
-
-A closed path returns to its starting point and encloses an area.
-
-    ●────────────●
-    │            │
-    │            │
-    ●────────────●
+<figure>
+    <img src="{{ '/assets/images/lesson01/1.png' | relative_url }}"
+         alt="Comparison">
+</figure>
 
 Closed paths are particularly important because their enclosed areas can
 receive fills.
@@ -262,6 +256,10 @@ Stroke properties can include:
 
 Understanding the distinction between the geometry of an object and its
 appearance is fundamental to working with vector graphics.
+<figure>
+    <img src="{{ '/assets/images/lesson01/2.png' | relative_url }}"
+         alt="Comparison">
+</figure>
 
 ---
 
