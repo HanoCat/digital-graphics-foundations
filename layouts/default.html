@@ -7,7 +7,7 @@
     <title>{{ page.title }} | {{ site.title }}</title>
 
     <link rel="stylesheet"
-          href="{{ site.baseurl }}/assets/css/style.css">
+      href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 
 <body>
@@ -15,12 +15,12 @@
 <header class="site-header">
     <div class="site-header-inner">
 
-        <a class="site-title" href="{{ site.baseurl }}/">
+        <a class="site-title" href="{{ '/' | relative_url }}">
             Digital Graphics Foundations
         </a>
 
         <nav class="top-nav">
-            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ '/' | relative_url }}">Home</a>
             <a href="{{ site.baseurl }}/about.html">About</a>
         </nav>
 
