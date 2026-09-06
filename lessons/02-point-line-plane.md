@@ -32,7 +32,11 @@ A point might appear as:
 - a symbol,
 - or any small isolated visual mark.
 
-<!-- FIGURE: A single point positioned on an empty plane -->
+
+<figure>
+    <img src="{{ '/assets/images/lesson02/lesson2_1.png' | relative_url }}"
+         alt="Comparison">
+</figure>
 
 ### Position Matters
 
@@ -200,7 +204,7 @@ The software gives us tools.
 
 ---
 
-# In-Class Practice — Point, Line, and Plane in Inkscape
+# In-Class Practice:
 
 In this activity, you will explore how the three fundamental elements can be created and manipulated using **Inkscape**.
 
