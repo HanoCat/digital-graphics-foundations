@@ -54,10 +54,7 @@ With many points, we can begin to create:
 - density,
 - and even the suggestion of shapes.
 
-<figure>
-    <img src="{{ '/assets/images/lesson02/lesson2_1.png' | relative_url }}"
-         alt="Comparison">
-</figure>
+
 
 This demonstrates an important idea in graphic design:
 
