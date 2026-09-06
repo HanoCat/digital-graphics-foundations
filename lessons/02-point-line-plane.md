@@ -32,21 +32,12 @@ A point might appear as:
 - a symbol,
 - or any small isolated visual mark.
 
-
-<figure>
-    <img src="{{ '/assets/images/lesson02/lesson2_1.png' | relative_url }}"
+  <figure>
+    <img src="{{ '/assets/images/lesson02/lesson2_3.png' | relative_url }}"
          alt="Comparison">
 </figure>
 
-### Position Matters
 
-A point may be simple, but changing its position can change the entire composition.
-
-A point placed in the center of a composition can appear stable and balanced. Moving it toward an edge can introduce tension or direction.
-
-Therefore, a point does more than occupy a location: **it establishes a visual relationship with the space around it.**
-
-<!-- FIGURE: Same point shown in center, near edge, and near corner -->
 
 ### From One Point to Many
 
@@ -63,7 +54,10 @@ With many points, we can begin to create:
 - density,
 - and even the suggestion of shapes.
 
-<!-- FIGURE: 1 point → 2 points → repeated points → dense point pattern -->
+<figure>
+    <img src="{{ '/assets/images/lesson02/lesson2_1.png' | relative_url }}"
+         alt="Comparison">
+</figure>
 
 This demonstrates an important idea in graphic design:
 
@@ -84,6 +78,10 @@ A line has length and direction. In visual graphics, it can also have properties
 - and opacity.
 
 <!-- FIGURE: Several lines with different weights and styles -->
+<figure>
+    <img src="{{ '/assets/images/lesson02/lesson2_2.png' | relative_url }}"
+         alt="Comparison">
+</figure>
 
 Lines are among the most expressive elements in visual communication.
 
@@ -99,7 +97,10 @@ A **diagonal line** often introduces movement, energy, or tension.
 
 A **curved line** can suggest softness, flow, or organic movement.
 
-<!-- FIGURE: Horizontal / Vertical / Diagonal / Curved -->
+<figure>
+    <img src="{{ '/assets/images/lesson02/lesson2_4.png' | relative_url }}"
+         alt="Comparison">
+</figure>
 
 These meanings are not absolute rules. Context, culture, surrounding elements, and composition all influence how a line is perceived.
 
@@ -111,7 +112,10 @@ A thin line may appear delicate or subtle, while a thick line can appear stronge
 
 Changing line weight can also establish **visual hierarchy**.
 
-<!-- FIGURE: Same line repeated from thin to thick -->
+<figure>
+    <img src="{{ '/assets/images/lesson02/lesson2_5.png' | relative_url }}"
+         alt="Comparison">
+</figure>
 
 ### Lines Do Not Always Need to Be Drawn
 
@@ -121,7 +125,10 @@ For example, several points arranged in a row can lead the eye from one location
 
 This is sometimes described as an **implied line**.
 
-<!-- FIGURE: Several dots forming a curve beside an actual curved line -->
+<figure>
+    <img src="{{ '/assets/images/lesson02/lesson2_6.png' | relative_url }}"
+         alt="Comparison">
+</figure>
 
 ---
 
@@ -143,7 +150,10 @@ Common examples include:
 
 A plane does not have to be geometric. It may also be organic, irregular, or freely constructed.
 
-<!-- FIGURE: Geometric planes vs organic planes -->
+<figure>
+    <img src="{{ '/assets/images/lesson02/lesson2_7.png' | relative_url }}"
+         alt="Comparison">
+</figure>
 
 ### Positive and Negative Space
 
