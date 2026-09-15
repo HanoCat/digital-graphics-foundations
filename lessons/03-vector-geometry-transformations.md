@@ -494,182 +494,39 @@ The terminology used in mathematics and the terminology shown in graphics softwa
 
 The interface may change between different graphics applications, but the underlying concepts remain transferable.
 
----
-
-# In-Class Lab: From Geometry to a Custom Vector Shape
-
-In this activity, you will explore the geometry behind vector graphics using **Inkscape**.
-
-This time, the goal is not simply to arrange basic shapes.
-
-You will **change their underlying geometry**.
 
 ---
+# In-Class Lab: Create a Simple Vector Leaf
+---
+In this activity, you will create a simple **leaf icon** while applying the main concepts from this lesson.
 
-## Part 1 — Explore a Bézier Curve
+<figure>
+    <img src="{{ '/assets/images/lesson03/06-lab-leaf.png' | relative_url }}"
+         alt="Simple vector leaf created using geometric operations">
+    <figcaption>
+        Example of a simple vector leaf constructed and transformed in Inkscape.
+    </figcaption>
+</figure>
 
-1. Select the **Bézier/Pen Tool**.
-2. Create a path containing several nodes.
-3. Include both straight and curved segments.
-4. Switch to the **Node Tool**.
-5. Select one of the nodes.
-6. Adjust its control handles.
-7. Observe how changing the handles changes the curve.
-8. Convert at least one straight segment into a curved segment.
+## Steps
 
-### Compare
+1. Use the **Bézier/Pen Tool** to draw the basic outline of a leaf.
 
-Create three copies of your curve and modify the handles differently.
+2. Use the **Node Tool** and Bézier handles to reshape the curves until the leaf has a smooth form.
 
-Place them next to each other.
+3. Add a simple shape or path to the leaf and experiment with one **Boolean operation**, such as:
+   - Union,
+   - Difference, or
+   - Intersection.
 
-**Question:** How can the same nodes produce different curves?
+4. Duplicate your finished leaf.
+
+5. **Scale** one copy while preserving its proportions.
+
+6. **Rotate** another copy to create a small arrangement of leaves.
+
+7. Use **Align and Distribute** to organise your final objects.
+
+8. Save your editable work as an **SVG file**.
 
 ---
-
-## Part 2 — Reshape a Basic Object
-
-1. Create a simple shape such as a rectangle, ellipse, or star.
-2. Duplicate it so you can keep the original for comparison.
-3. Select the duplicate.
-4. Choose:
-
-**Path → Object to Path**
-
-5. Select the **Node Tool**.
-6. Move several nodes.
-7. Add or remove at least one node.
-8. Change at least one straight segment into a curve.
-9. Continue editing until the new object is clearly different from the original.
-
-Place:
-
-**Original → Reshaped**
-
-next to each other.
-
----
-
-## Part 3 — Boolean Geometry Experiment
-
-Create **two overlapping shapes**.
-
-Duplicate the pair several times so that every experiment begins with the same geometry.
-
-Apply:
-
-1. **Union**
-2. **Difference**
-3. **Intersection**
-4. **Exclusion**
-5. **Division**
-
-Arrange the results next to each other.
-
-Your page should show:
-
-**Original | Union | Difference | Intersection | Exclusion | Division**
-
-### Observe
-
-Which parts of the original shapes remain after each operation?
-
-Which operations produce one object, and which can produce separate pieces?
-
----
-
-## Part 4 — Transform One Object
-
-Create one **asymmetric object**.
-
-An asymmetric object is useful because rotation and scaling will be easier to observe.
-
-Duplicate it several times.
-
-Create:
-
-### A. Original
-
-Keep one copy unchanged.
-
-### B. Translation
-
-Move one copy horizontally and vertically.
-
-### C. Proportional Scaling
-
-Make one copy larger while keeping its proportions.
-
-### D. Non-Proportional Scaling
-
-Stretch another copy only horizontally or vertically.
-
-### E. Rotation
-
-Rotate another copy by approximately:
-
-\[
-45^\circ
-\]
-
-Arrange the results so that the transformations can be compared easily.
-
----
-
-## Part 5 — Align & Distribute
-
-1. Create four copies of a small object.
-2. Place them roughly in a row.
-3. Select all four.
-4. Open **Align and Distribute**.
-5. Align the objects.
-6. Distribute them with equal spacing.
-
-Compare the result with manually positioning the objects.
-
----
-
-# Final Lab Check
-
-Before finishing, your document should demonstrate:
-
-- one edited Bézier curve;
-- visible manipulation of control handles;
-- one basic object converted to a path and reshaped;
-- Union;
-- Difference;
-- Intersection;
-- Exclusion or Division;
-- translation;
-- proportional scaling;
-- non-proportional scaling;
-- rotation;
-- alignment and distribution.
-
-Save your editable work as an **SVG file**.
-
----
-
-# Think About It
-
-Before leaving the lab, consider these questions:
-
-1. Why can two curves with the same start and end points have different shapes?
-2. Why might Boolean operations be faster than drawing a complex outline manually?
-3. What is the difference between proportional and non-proportional scaling?
-4. Which properties of an object remain unchanged when it is translated?
-5. Why might the centre of rotation matter in animation?
-
----
-
-# Key Takeaways
-
-- Bézier curves use control information to construct smooth vector curves.
-- Nodes and handles allow designers to reshape vector geometry visually.
-- Simple shapes can be combined into complex forms using Boolean operations.
-- Translation changes position.
-- Scaling changes size.
-- Proportional scaling preserves the relationship between width and height.
-- Rotation changes orientation around a centre of rotation.
-- Alignment and distribution provide precise ways to organise multiple objects.
-- Vector graphics editors provide visual tools for manipulating mathematical geometry.
