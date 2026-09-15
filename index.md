@@ -3,59 +3,90 @@ layout: default
 title: Home
 ---
 
+<div class="course-hero">
+
 # Digital Graphics Foundations
 
-Welcome to **Digital Graphics Foundations**.
+Learn the principles behind digital graphics — and apply them using the vector editor of your choice.
 
-This course introduces the fundamental concepts and principles of digital graphics and visual design, independently of any particular software package.
+**Inkscape is used for classroom demonstrations**, but Adobe Illustrator or another suitable vector editor may also be used.
 
-Classroom demonstrations primarily use **Inkscape**, but students may use another suitable vector graphics editor such as **Adobe Illustrator**.
+</div>
 
-The focus of the course is not on learning one specific application, but on understanding concepts and techniques that can be transferred across different digital graphics tools.
+## Start Here
 
----
+<div class="lesson-grid">
 
-## Lessons
+<a class="lesson-card" href="{{ site.baseurl }}/lessons/01-digital-graphics-foundations.html">
+<span class="lesson-number">01</span>
+<strong>Foundations of Digital Graphics</strong>
+<span>Raster, vector, resolution & digital artwork</span>
+</a>
 
-### Lesson 1 — Foundations of Digital Graphics
+<a class="lesson-card" href="{{ site.baseurl }}/lessons/02-point-line-plane.html">
+<span class="lesson-number">02</span>
+<strong>Visual Elements</strong>
+<span>Point, line, shape & plane</span>
+</a>
 
-An introduction to raster and vector graphics, resolution, file formats, and the basic structure of digital artwork.
+<div class="lesson-card coming-soon">
+<span class="lesson-number">03</span>
+<strong>Vector Geometry & Transformations</strong>
+<span>Coming soon</span>
+</div>
 
-[Read Lesson 1 →]({{ site.baseurl }}/lessons/01-digital-graphics-foundations.html)
+<div class="lesson-card coming-soon">
+<span class="lesson-number">04</span>
+<strong>Color & Visual Style</strong>
+<span>Coming soon</span>
+</div>
 
-### Lesson 2 — Visual Elements: Point, Line, Shape & Plane
+<div class="lesson-card coming-soon">
+<span class="lesson-number">05</span>
+<strong>Principles of Visual Composition</strong>
+<span>Coming soon</span>
+</div>
 
-Explore the fundamental visual elements used to construct digital graphics and visual compositions.
+<div class="lesson-card coming-soon">
+<span class="lesson-number">06</span>
+<strong>Typography, Grids & Layout</strong>
+<span>Coming soon</span>
+</div>
 
-[Read Lesson 2 →]({{ site.baseurl }}/lessons/02-point-line-plane.html)
+</div>
 
 ---
 
 ## Software Tutorials
 
-The concepts taught in this course can be applied using different vector graphics editors.
+You do not need to master one particular application. These resources can help you learn the software tools used to apply the concepts in this course.
 
-You are encouraged to become familiar with the software you choose to use. The following resources focus specifically on learning the software and its tools.
+<div class="software-grid">
+
+<div class="software-card">
 
 ### Inkscape
 
-**Inkscape** is a free and open-source vector graphics editor available for Windows, macOS, and Linux.
+**Recommended for this course**
 
-- [Inkscape — Stanford University Software](https://software.stanford.edu/software/inkscape)
-- [Official Inkscape Basic Tutorial](https://inkscape.org/doc/tutorials/basic/tutorial-basic.html)
-- [Official Inkscape Learning Resources](https://inkscape.org/learn/)
+Free and open-source vector graphics editor.
+
+[Stanford Inkscape Resource →](https://software.stanford.edu/software/inkscape)
+
+[Official Inkscape Tutorials →](https://inkscape.org/learn/tutorials/)
+
+</div>
+
+<div class="software-card">
 
 ### Adobe Illustrator
 
-**Adobe Illustrator** is a professional commercial vector graphics editor and part of Adobe Creative Cloud.
+Professional vector graphics editor from Adobe.
 
-- [Adobe Illustrator: 5 Essentials for Beginners — Stanford University](https://uit.stanford.edu/service/techtraining/class/adobe-illustrator-5-essentials-beginners)
-- [Creating Basic Illustrations Using Adobe Illustrator — Stanford University](https://uit.stanford.edu/service/techtraining/class/creating-basic-illustrations-using-adobe-illustrator)
+[Stanford Illustrator Training →](https://uit.stanford.edu/service/techtraining/class/adobe-illustrator-5-essentials-beginners)
 
----
+[Adobe Illustrator Tutorials →](https://helpx.adobe.com/illustrator/tutorials.html)
 
-### Which software should I use?
+</div>
 
-**Inkscape is recommended for this course** because it is free and available to all students.
-
-If you already have access to **Adobe Illustrator**, you may use it instead. The underlying vector graphics concepts taught in the course apply to both applications.
+</div>

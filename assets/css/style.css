@@ -105,7 +105,7 @@ body {
 
 .sidebar a span {
     display: inline-block;
-    width: 30px;
+    width: 50px;
     color: #999;
     font-size: 0.85rem;
 }
@@ -299,4 +299,101 @@ code {
     .author {
         margin-top: 20px;
     }
+}
+
+/* ---------- Home page hero ---------- */
+
+.course-hero {
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+  background: #f7f7f8;
+  border-radius: 14px;
+}
+
+.course-hero h1 {
+  margin-top: 0;
+}
+
+
+/* ---------- Lesson cards ---------- */
+
+.lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 3rem;
+}
+
+.lesson-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  padding: 1.3rem 1.4rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+
+  text-decoration: none;
+  color: inherit;
+  background: white;
+
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+a.lesson-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+.lesson-number {
+  font-size: 0.8rem;
+  opacity: 0.55;
+}
+
+.lesson-card strong {
+  font-size: 1.05rem;
+}
+
+.lesson-card span:last-child {
+  font-size: 0.88rem;
+  opacity: 0.7;
+}
+
+.coming-soon {
+  opacity: 0.55;
+}
+
+
+/* ---------- Software section ---------- */
+
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.software-card {
+  padding: 1.4rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  background: #fafafa;
+}
+
+.software-card h3 {
+  margin-top: 0;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 700px) {
+  .lesson-grid,
+  .software-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .course-hero {
+    padding: 1.5rem;
+  }
 }
