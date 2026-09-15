@@ -3,109 +3,239 @@ layout: default
 title: Home
 ---
 
-<div class="course-hero">
+<section class="course-hero">
 
-# Digital Graphics Foundations
+  <h1>Digital Graphics Foundations</h1>
 
-Learn the principles behind digital graphics — and apply them using the vector editor of your choice.
+  <p>
+    Learn the principles behind digital graphics and apply them using
+    the vector editor of your choice.
+  </p>
 
-**Inkscape is used for classroom demonstrations**, but Adobe Illustrator or another suitable vector editor may also be used.
+  <p>
+    <strong>Inkscape is used for classroom demonstrations</strong>,
+    but Adobe Illustrator or another suitable vector editor may also be used.
+  </p>
 
-</div>
-
-## Start Here
-
-<div class="lesson-grid">
-
-<a class="lesson-card" href="{{ site.baseurl }}/lessons/01-digital-graphics-foundations.html">
-<span class="lesson-number">01</span>
-<strong>Foundations of Digital Graphics</strong>
-<span>Raster, vector, resolution & digital artwork</span>
-</a>
-
-<a class="lesson-card" href="{{ site.baseurl }}/lessons/02-point-line-plane.html">
-<span class="lesson-number">02</span>
-<strong>Visual Elements</strong>
-<span>Point, line, shape & plane</span>
-</a>
-
-<div class="lesson-card coming-soon">
-<span class="lesson-number">03</span>
-<strong>Vector Geometry & Transformations</strong>
-<span>Coming soon</span>
-</div>
-
-<div class="lesson-card coming-soon">
-<span class="lesson-number">04</span>
-<strong>Color & Visual Style</strong>
-<span>Coming soon</span>
-</div>
-
-<div class="lesson-card coming-soon">
-<span class="lesson-number">05</span>
-<strong>Principles of Visual Composition</strong>
-<span>Coming soon</span>
-</div>
-
-<div class="lesson-card coming-soon">
-<span class="lesson-number">06</span>
-<strong>Typography, Grids & Layout</strong>
-<span>Coming soon</span>
-</div>
-
-<div class="lesson-card coming-soon">
-<span class="lesson-number">07</span>
-<strong>Advanced Vector Drawing & Image Integration</strong>
-<span>Coming soon</span>
-</div>
-
-<div class="lesson-card coming-soon">
-<span class="lesson-number">08</span>
-<strong>Introduction to Motion Graphics</strong>
-<span>Coming soon</span>
-</div>
-
-<div class="lesson-card coming-soon">
-<span class="lesson-number">09</span>
-<strong>Introduction to 3D Graphics & Modeling</strong>
-<span>Coming soon</span>
-</div>
+</section>
 
 
-</div>
+<section id="lessons" class="lessons-section">
 
----
+  <div class="section-heading">
+    <span class="section-label">COURSE CONTENT</span>
 
-## Software Tutorials
+    <h2>Lessons</h2>
 
-You do not need to master one particular application. These resources can help you learn the software tools used to apply the concepts in this course.
+    <p>
+      Explore the foundations of digital graphics, from visual elements
+      and vector geometry to motion and 3D graphics.
+    </p>
+  </div>
 
-<div class="software-grid">
 
-<div class="software-card">
+  <div class="lesson-grid">
 
-### Inkscape
+    <!-- Lesson 01 -->
+    <a class="lesson-card"
+       href="{{ '/lessons/01-digital-graphics-foundations.html' | relative_url }}">
 
-**Recommended for this course**
+      <span class="lesson-number">01</span>
 
-Free and open-source vector graphics editor.
+      <strong>Foundations of Digital Graphics</strong>
 
-[Stanford Inkscape Resource →](https://software.stanford.edu/software/inkscape)
+      <span>Raster, vector, resolution & digital artwork</span>
 
-[Official Inkscape Tutorials →](https://inkscape.org/learn/tutorials/)
+    </a>
 
-</div>
 
-<div class="software-card">
+    <!-- Lesson 02 -->
+    <a class="lesson-card"
+       href="{{ '/lessons/02-point-line-plane.html' | relative_url }}">
 
-### Adobe Illustrator
+      <span class="lesson-number">02</span>
 
-Professional vector graphics editor from Adobe.
+      <strong>Visual Elements</strong>
 
-[Stanford Illustrator Training →](https://uit.stanford.edu/service/techtraining/class/adobe-illustrator-5-essentials-beginners)
+      <span>Point, line, shape & plane</span>
 
-[Adobe Illustrator Tutorials →](https://helpx.adobe.com/illustrator/tutorials.html)
+    </a>
 
-</div>
 
-</div>
+    <!-- Lesson 03 -->
+    <a class="lesson-card"
+       href="{{ '/lessons/03-vector-geometry-transformations.html' | relative_url }}">
+
+      <span class="lesson-number">03</span>
+
+      <strong>Vector Geometry & Transformations</strong>
+
+      <span>Paths, nodes, curves & geometric transformations</span>
+
+    </a>
+
+
+    <!-- Lesson 04 -->
+    <div class="lesson-card coming-soon">
+
+      <span class="lesson-number">04</span>
+
+      <strong>Color & Visual Style</strong>
+
+      <span>Coming soon</span>
+
+    </div>
+
+
+    <!-- Lesson 05 -->
+    <div class="lesson-card coming-soon">
+
+      <span class="lesson-number">05</span>
+
+      <strong>Principles of Visual Composition</strong>
+
+      <span>Coming soon</span>
+
+    </div>
+
+
+    <!-- Lesson 06 -->
+    <div class="lesson-card coming-soon">
+
+      <span class="lesson-number">06</span>
+
+      <strong>Typography, Grids & Layout Systems</strong>
+
+      <span>Coming soon</span>
+
+    </div>
+
+
+    <!-- Lesson 07 -->
+    <div class="lesson-card coming-soon">
+
+      <span class="lesson-number">07</span>
+
+      <strong>Advanced Vector Drawing & Image Integration</strong>
+
+      <span>Coming soon</span>
+
+    </div>
+
+
+    <!-- Lesson 08 -->
+    <div class="lesson-card coming-soon">
+
+      <span class="lesson-number">08</span>
+
+      <strong>Introduction to Motion Graphics</strong>
+
+      <span>Coming soon</span>
+
+    </div>
+
+
+    <!-- Lesson 09 -->
+    <div class="lesson-card coming-soon">
+
+      <span class="lesson-number">09</span>
+
+      <strong>Introduction to 3D Graphics & Modeling</strong>
+
+      <span>Coming soon</span>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="software" class="software-section">
+
+  <div class="section-heading">
+
+    <span class="section-label">LEARNING RESOURCES</span>
+
+    <h2>Software Tutorials</h2>
+
+    <p>
+      You do not need to master one particular application.
+      Choose the vector graphics editor that works best for you.
+    </p>
+
+  </div>
+
+
+  <div class="software-grid">
+
+    <!-- Inkscape -->
+    <div class="software-card">
+
+      <div class="software-heading">
+
+        <h3>Inkscape</h3>
+
+        <span class="recommended">Recommended</span>
+
+      </div>
+
+      <p>
+        Free and open-source vector graphics editor used for
+        classroom demonstrations.
+      </p>
+
+      <div class="resource-links">
+
+        <a href="https://software.stanford.edu/software/inkscape"
+           target="_blank"
+           rel="noopener noreferrer">
+          Stanford Resource →
+        </a>
+
+        <a href="https://inkscape.org/learn/tutorials/"
+           target="_blank"
+           rel="noopener noreferrer">
+          Official Inkscape Tutorials →
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- Adobe Illustrator -->
+    <div class="software-card">
+
+      <div class="software-heading">
+
+        <h3>Adobe Illustrator</h3>
+
+      </div>
+
+      <p>
+        Professional vector graphics editor that may also be
+        used throughout the course.
+      </p>
+
+      <div class="resource-links">
+
+        <a href="https://uit.stanford.edu/service/techtraining/class/adobe-illustrator-5-essentials-beginners"
+           target="_blank"
+           rel="noopener noreferrer">
+          Stanford Training →
+        </a>
+
+        <a href="https://helpx.adobe.com/illustrator/tutorials.html"
+           target="_blank"
+           rel="noopener noreferrer">
+          Official Adobe Tutorials →
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
