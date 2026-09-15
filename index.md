@@ -53,6 +53,25 @@ Learn the principles behind digital graphics — and apply them using the vector
 <span>Coming soon</span>
 </div>
 
+<div class="lesson-card coming-soon">
+<span class="lesson-number">07</span>
+<strong>Advanced Vector Drawing & Image Integration</strong>
+<span>Coming soon</span>
+</div>
+
+<div class="lesson-card coming-soon">
+<span class="lesson-number">08</span>
+<strong>Introduction to Motion Graphics</strong>
+<span>Coming soon</span>
+</div>
+
+<div class="lesson-card coming-soon">
+<span class="lesson-number">09</span>
+<strong>Introduction to 3D Graphics & Modeling</strong>
+<span>Coming soon</span>
+</div>
+
+
 </div>
 
 ---

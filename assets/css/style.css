@@ -545,3 +545,27 @@ a.lesson-card:hover {
     }
 
 }
+
+/* ---------- Section headings ---------- */
+
+.section-heading {
+    margin-bottom: 24px;
+}
+
+.section-heading h2 {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.section-heading p {
+    max-width: 680px;
+    margin-top: 0;
+    color: var(--muted);
+}
+
+.section-label {
+    color: var(--accent);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
