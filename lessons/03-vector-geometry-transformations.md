@@ -450,7 +450,7 @@ The interface may change between different graphics applications, but the underl
 
 ---
 
-# In-Class Lab: Create a Simple Vector Leaf
+# In-Class Lab: 
 
 In this activity, you will create a simple **leaf icon** while applying the main concepts from this lesson.
 
