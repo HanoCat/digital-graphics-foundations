@@ -94,7 +94,7 @@ the curve reaches \(P_2\).
 The position of \(P_1\) influences the shape of the curve between them.
 
 <figure>
-    <img src="{{ '/assets/images/lesson03/01-bezier.png' | relative_url }}"
+    <img src="{{ '/assets/images/lesson03/3_1.png' | relative_url }}"
          alt="A simple Bezier curve showing its start point, control point, and end point">
     <figcaption>
         A Bézier curve controlled by a start point, control point, and end point.
@@ -118,7 +118,7 @@ Moving a handle changes:
 - the smoothness of the transition.
 
 <figure>
-    <img src="{{ '/assets/images/lesson03/02-bezier-handles.png' | relative_url }}"
+    <img src="{{ '/assets/images/lesson03/3_2.png' | relative_url }}"
          alt="Bezier curves changing as their control handles are moved">
     <figcaption>
         Changing the position of control handles changes the geometry of the curve.
@@ -243,7 +243,7 @@ Unlike Union, Difference, or Intersection, the purpose is not simply to keep or 
 ---
 
 <figure>
-    <img src="{{ '/assets/images/lesson03/03-boolean-operations.png' | relative_url }}"
+    <img src="{{ '/assets/images/lesson03/3_3.png' | relative_url }}"
          alt="Comparison of union, difference, intersection, exclusion, and division operations">
     <figcaption>
         Different Boolean operations applied to the same starting shapes.
@@ -280,7 +280,7 @@ We will consider three important transformations:
 3. rotation.
 
 <figure>
-    <img src="{{ '/assets/images/lesson03/04-transformations.png' | relative_url }}"
+    <img src="{{ '/assets/images/lesson03/3_4.png' | relative_url }}"
          alt="An object shown before and after translation, scaling, and rotation">
     <figcaption>
         Translation, scaling, and rotation applied to the same object.
@@ -378,7 +378,7 @@ If the width and height are scaled by the same factor, this ratio remains unchan
 This is called **proportional scaling**.
 
 <figure>
-    <img src="{{ '/assets/images/lesson03/05-proportion.png' | relative_url }}"
+    <img src="{{ '/assets/images/lesson03/3_5.png' | relative_url }}"
          alt="Comparison between proportional and non-proportional scaling">
     <figcaption>
         Proportional scaling preserves the relationship between width and height, while non-proportional scaling can distort the object.
@@ -500,13 +500,6 @@ The interface may change between different graphics applications, but the underl
 ---
 In this activity, you will create a simple **leaf icon** while applying the main concepts from this lesson.
 
-<figure>
-    <img src="{{ '/assets/images/lesson03/06-lab-leaf.png' | relative_url }}"
-         alt="Simple vector leaf created using geometric operations">
-    <figcaption>
-        Example of a simple vector leaf constructed and transformed in Inkscape.
-    </figcaption>
-</figure>
 
 ## Steps
 
