@@ -63,11 +63,9 @@ Consider a simple curve controlled by three points:
 
 A quadratic Bézier curve can be described by:
 
-<div class="equation">
-  B(t) = (1 − t)<sup>2</sup>P<sub>0</sub>
-  + 2(1 − t)tP<sub>1</sub>
-  + t<sup>2</sup>P<sub>2</sub>
-</div>
+$$
+B(t) = (1-t)^2P_0 + 2(1-t)tP_1 + t^2P_2
+$$
 
 where:
 
