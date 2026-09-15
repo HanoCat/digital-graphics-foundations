@@ -63,33 +63,23 @@ Consider a simple curve controlled by three points:
 
 A quadratic Bézier curve can be described by:
 
-\[
-B(t) = (1-t)^2P_0 + 2(1-t)tP_1 + t^2P_2
-\]
+<div class="equation">
+  B(t) = (1 − t)<sup>2</sup>P<sub>0</sub>
+  + 2(1 − t)tP<sub>1</sub>
+  + t<sup>2</sup>P<sub>2</sub>
+</div>
 
 where:
 
-\[
-0 \leq t \leq 1
-\]
+<div class="equation">
+  0 ≤ t ≤ 1
+</div>
 
-The value of \(t\) represents a position along the curve.
+The value of t represents a position along the curve.
 
-When:
+When t=0 the curve begins at \(P_0\).
 
-\[
-t=0
-\]
-
-the curve begins at \(P_0\).
-
-When:
-
-\[
-t=1
-\]
-
-the curve reaches \(P_2\).
+When t=1 the curve reaches \(P_2\).
 
 The position of \(P_1\) influences the shape of the curve between them.
 
