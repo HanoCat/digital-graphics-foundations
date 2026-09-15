@@ -1,37 +1,60 @@
+/* =========================================================
+   Digital Graphics Foundations
+   ========================================================= */
+
+
+/* ---------- Theme ---------- */
 
 :root {
     --text: #202124;
     --muted: #6b7280;
     --border: #e5e7eb;
     --background: #ffffff;
-    --sidebar: #fafafa;
+
     --accent: #246b75;
     --accent-light: #eef7f8;
 }
+
 
 * {
     box-sizing: border-box;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
     line-height: 1.75;
     color: var(--text);
     background: var(--background);
 }
 
 
-/* ---------------- Header ---------------- */
+/* =========================================================
+   Header
+   ========================================================= */
 
 .site-header {
+    background: #ffffff;
     border-bottom: 1px solid var(--border);
-    background: #fff;
 }
 
+
 .site-header-inner {
-    max-width: 1400px;
-    margin: auto;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 20px 32px;
 
     display: flex;
@@ -39,226 +62,428 @@ body {
     justify-content: space-between;
 }
 
+
 .site-title {
-    font-size: 1.25rem;
-    font-weight: 700;
     color: var(--text);
     text-decoration: none;
+
+    font-size: 1.15rem;
+    font-weight: 700;
 }
 
-.top-nav a {
-    margin-left: 26px;
-    color: #555;
-    text-decoration: none;
-    font-size: 0.95rem;
+
+.top-nav {
+    display: flex;
+    gap: 26px;
 }
+
+
+.top-nav a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.93rem;
+}
+
 
 .top-nav a:hover {
     color: var(--accent);
 }
 
 
-/* ---------------- Main layout ---------------- */
+/* =========================================================
+   Main page
+   ========================================================= */
 
 .page-layout {
     max-width: 900px;
-    margin: auto;
-    padding: 55px 32px 90px;
+    margin: 0 auto;
+    padding: 60px 32px 90px;
 }
 
-/* ---------------- Sidebar ---------------- */
-
-.sidebar {
-    border-right: 1px solid var(--border);
-    padding-right: 28px;
-}
-
-.sidebar-section {
-    margin-bottom: 42px;
-}
-
-.sidebar h3 {
-    margin: 0 0 15px;
-    font-size: 0.78rem;
-    text-transform: uppercase;
-    letter-spacing: 0.11em;
-    color: var(--muted);
-}
-
-.sidebar a {
-    display: grid;
-    grid-template-columns: 34px 1fr;
-    gap: 8px;
-    align-items: start;
-
-    padding: 9px 10px;
-    margin: 3px 0;
-
-    color: #444;
-    text-decoration: none;
-    line-height: 1.4;
-
-    border-radius: 7px;
-}
-
-.sidebar a span {
-    width: auto;
-    color: #999;
-    font-size: 0.82rem;
-}
-
-.sidebar a:hover {
-    background: #f3f4f6;
-    color: var(--accent);
-}
-
-.sidebar a.active {
-    background: var(--accent-light);
-    color: var(--accent);
-    font-weight: 600;
-}
-
-
-/* ---------------- Article ---------------- */
 
 .article {
     width: 100%;
-    min-width: 0;
 }
+
 
 .lesson-label {
     margin-bottom: 12px;
 
-    font-size: 0.8rem;
+    color: var(--accent);
+
+    font-size: 0.78rem;
     font-weight: 700;
+
     text-transform: uppercase;
     letter-spacing: 0.12em;
-
-    color: var(--accent);
 }
 
-.article h1 {
-    font-size: clamp(2.3rem, 5vw, 3.4rem);
-    line-height: 1.1;
 
+/* =========================================================
+   Typography
+   ========================================================= */
+
+.article h1 {
     margin-top: 0;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
+
+    font-size: clamp(2.2rem, 5vw, 3.3rem);
+    line-height: 1.1;
 
     letter-spacing: -0.035em;
 }
 
-.article h2 {
-    font-size: 1.8rem;
-    margin-top: 60px;
-    margin-bottom: 15px;
 
-    padding-top: 5px;
+.article h2 {
+    margin-top: 55px;
+    margin-bottom: 14px;
+
+    font-size: 1.75rem;
+    line-height: 1.25;
 }
+
 
 .article h3 {
-    margin-top: 38px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+
+    font-size: 1.15rem;
 }
+
 
 .article p,
 .article li {
-    font-size: 1.05rem;
+    font-size: 1.03rem;
 }
 
-.article img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-
-    margin: 35px auto 12px;
-}
-
-.article figure {
-    margin: 40px 0;
-}
-
-.article figcaption {
-    color: var(--muted);
-    font-size: 0.9rem;
-    text-align: center;
-}
-
-
-/* ---------------- Callouts ---------------- */
-
-blockquote {
-    margin: 32px 0;
-    padding: 18px 24px;
-
-    border-left: 4px solid var(--accent);
-    background: var(--accent-light);
-
-    border-radius: 0 6px 6px 0;
-}
-
-
-/* ---------------- Tables ---------------- */
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 32px 0;
-}
-
-th,
-td {
-    border-bottom: 1px solid var(--border);
-    padding: 12px 14px;
-    text-align: left;
-}
-
-th {
-    background: #f8f9fa;
-}
-
-
-/* ---------------- Code ---------------- */
-
-code {
-    background: #f4f4f4;
-    border-radius: 4px;
-    padding: 2px 6px;
-}
-
-
-/* ---------------- Links ---------------- */
 
 .article a {
     color: var(--accent);
 }
+
 
 .article a:hover {
     text-decoration-thickness: 2px;
 }
 
 
-/* ---------------- Footer ---------------- */
+/* =========================================================
+   Images
+   ========================================================= */
 
-.site-footer {
-    border-top: 1px solid var(--border);
-    background: #fafafa;
+.article img {
+    display: block;
+
+    max-width: 100%;
+    height: auto;
+
+    margin: 35px auto 12px;
 }
 
+
+.article figure {
+    margin: 40px 0;
+}
+
+
+.article figcaption {
+    margin-top: 10px;
+
+    color: var(--muted);
+
+    font-size: 0.88rem;
+    text-align: center;
+}
+
+
+/* =========================================================
+   Callouts
+   ========================================================= */
+
+blockquote {
+    margin: 32px 0;
+    padding: 18px 24px;
+
+    background: var(--accent-light);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+}
+
+
+/* =========================================================
+   Tables
+   ========================================================= */
+
+table {
+    width: 100%;
+
+    margin: 32px 0;
+
+    border-collapse: collapse;
+}
+
+
+th,
+td {
+    padding: 12px 14px;
+
+    border-bottom: 1px solid var(--border);
+
+    text-align: left;
+}
+
+
+th {
+    background: #f8f9fa;
+}
+
+
+/* =========================================================
+   Code
+   ========================================================= */
+
+code {
+    padding: 2px 6px;
+
+    background: #f4f4f4;
+    border-radius: 4px;
+}
+
+
+/* =========================================================
+   Home introduction
+   ========================================================= */
+
+.course-hero {
+    margin-bottom: 50px;
+    padding-bottom: 35px;
+
+    border-bottom: 1px solid var(--border);
+}
+
+
+.course-hero h1 {
+    margin-bottom: 18px;
+}
+
+
+.course-hero p {
+    max-width: 720px;
+
+    color: #4b5563;
+}
+
+
+/* =========================================================
+   Lesson cards
+   ========================================================= */
+
+.lesson-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 14px;
+
+    margin: 22px 0 60px;
+}
+
+
+.lesson-card {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 125px;
+
+    padding: 20px;
+
+    color: var(--text);
+    text-decoration: none;
+
+    background: #ffffff;
+
+    border: 1px solid var(--border);
+    border-radius: 9px;
+
+    transition:
+        border-color 0.15s ease,
+        transform 0.15s ease;
+}
+
+
+a.lesson-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+
+.lesson-number {
+    margin-bottom: 7px;
+
+    color: var(--accent);
+
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+
+.lesson-card strong {
+    margin-bottom: 4px;
+
+    font-size: 1rem;
+    line-height: 1.35;
+}
+
+
+.lesson-card span:last-child {
+    color: var(--muted);
+
+    font-size: 0.86rem;
+}
+
+
+.coming-soon {
+    opacity: 0.55;
+}
+
+
+/* =========================================================
+   Software tutorials
+   ========================================================= */
+
+.software-section {
+    margin-top: 60px;
+    padding-top: 45px;
+
+    border-top: 1px solid var(--border);
+}
+
+
+.software-section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+.section-intro {
+    max-width: 680px;
+
+    margin-top: 0;
+    margin-bottom: 25px;
+
+    color: var(--muted);
+}
+
+
+.software-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 16px;
+}
+
+
+.software-card {
+    padding: 22px;
+
+    background: #fafafa;
+
+    border: 1px solid var(--border);
+    border-radius: 9px;
+}
+
+
+.software-heading {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-bottom: 8px;
+}
+
+
+.software-heading h3 {
+    margin: 0;
+
+    font-size: 1.1rem;
+}
+
+
+.recommended {
+    padding: 3px 9px;
+
+    color: var(--accent);
+    background: var(--accent-light);
+
+    border-radius: 20px;
+
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+
+.software-card p {
+    margin: 8px 0 18px;
+
+    color: var(--muted);
+
+    font-size: 0.9rem;
+}
+
+
+.resource-links {
+    display: flex;
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+
+.resource-links a {
+    color: var(--accent);
+
+    font-size: 0.88rem;
+    text-decoration: none;
+}
+
+
+.resource-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================================
+   Footer
+   ========================================================= */
+
+.site-footer {
+    background: #fafafa;
+
+    border-top: 1px solid var(--border);
+}
+
+
 .footer-inner {
-    max-width: 1400px;
-    margin: auto;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 32px;
 
     display: flex;
     justify-content: space-between;
+
     gap: 30px;
 
     color: var(--muted);
-    font-size: 0.9rem;
+
+    font-size: 0.88rem;
 }
 
+
 .footer-inner p {
-    margin: 5px 0 0;
+    margin: 4px 0 0;
 }
+
 
 .author a {
     color: var(--accent);
@@ -266,204 +491,57 @@ code {
 }
 
 
-/* ---------------- Mobile ---------------- */
+/* =========================================================
+   Mobile
+   ========================================================= */
 
-@media (max-width: 850px) {
+@media (max-width: 700px) {
 
     .site-header-inner {
-        padding: 18px 20px;
+        padding: 17px 20px;
     }
+
+
+    .site-title {
+        font-size: 1rem;
+    }
+
+
+    .top-nav {
+        gap: 14px;
+    }
+
+
+    .top-nav a {
+        font-size: 0.82rem;
+    }
+
 
     .page-layout {
-        display: block;
-        padding: 35px 20px 70px;
+        padding: 40px 20px 70px;
     }
 
-    .sidebar {
-        border-right: none;
-        border-bottom: 1px solid var(--border);
 
-        padding-right: 0;
-        padding-bottom: 25px;
-        margin-bottom: 45px;
+    .article h1 {
+        font-size: 2.2rem;
     }
+
+
+    .lesson-grid,
+    .software-grid {
+        grid-template-columns: 1fr;
+    }
+
 
     .footer-inner {
         display: block;
-        padding: 30px 20px;
+
+        padding: 28px 20px;
     }
+
 
     .author {
-        margin-top: 20px;
+        margin-top: 18px;
     }
-}
 
-/* ---------- Home page hero ---------- */
-
-.course-hero {
-  padding: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.course-hero h1 {
-  margin-top: 0;
-}
-
-
-/* ---------- Lesson cards ---------- */
-.lesson-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 14px;
-    margin: 1.5rem 0 3.5rem;
-}
-
-.lesson-card {
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
-
-    padding: 1.2rem 1.3rem;
-
-    border: 1px solid var(--border);
-    border-radius: 8px;
-
-    text-decoration: none;
-    color: inherit;
-    background: #fff;
-
-    transition: border-color 0.15s ease,
-                transform 0.15s ease;
-}
-
-a.lesson-card:hover {
-    border-color: var(--accent);
-    transform: translateY(-2px);
-}
-
-.lesson-number {
-  font-size: 0.8rem;
-  opacity: 0.55;
-}
-
-.lesson-card strong {
-  font-size: 1.05rem;
-}
-
-.lesson-card span:last-child {
-  font-size: 0.88rem;
-  opacity: 0.7;
-}
-
-.coming-soon {
-  opacity: 0.55;
-}
-
-
-/* ---------- Software section ---------- */
-
-.software-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.2rem;
-  margin-top: 1.5rem;
-}
-
-.software-card {
-  padding: 1.4rem;
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  background: #fafafa;
-}
-
-.software-card h3 {
-  margin-top: 0;
-}
-
-
-/* ---------- Mobile ---------- */
-
-@media (max-width: 700px) {
-  .lesson-grid,
-  .software-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .course-hero {
-    padding: 1.5rem;
-  }
-}
-
-/* ---------- Software Tutorials ---------- */
-
-.software-section {
-    margin-top: 4rem;
-    padding-top: 2.5rem;
-    border-top: 1px solid var(--border);
-}
-
-.software-section h2 {
-    margin-top: 0;
-}
-
-.section-intro {
-    max-width: 650px;
-    color: var(--muted);
-    margin-bottom: 1.8rem;
-}
-
-.software-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 18px;
-}
-
-.software-card {
-    padding: 1.5rem;
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    background: #fff;
-}
-
-.software-heading {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 8px;
-}
-
-.software-heading h3 {
-    margin: 0;
-    font-size: 1.1rem;
-}
-
-.recommended {
-    font-size: 0.72rem;
-    font-weight: 600;
-    color: var(--accent);
-    background: var(--accent-light);
-    padding: 3px 8px;
-    border-radius: 20px;
-}
-
-.software-card p {
-    color: var(--muted);
-    font-size: 0.92rem;
-    margin: 8px 0 18px;
-}
-
-.resource-links {
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-}
-
-.resource-links a {
-    font-size: 0.9rem;
-    text-decoration: none;
-    color: var(--accent);
-}
-
-.resource-links a:hover {
-    text-decoration: underline;
 }

@@ -1,61 +1,78 @@
-<section class="software-section" id="software">
+<!DOCTYPE html>
+<html lang="en">
 
-  <h2>Software Tutorials</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <p class="section-intro">
-    Choose the vector graphics editor that works best for you.
-    Inkscape is used for classroom demonstrations, but Adobe Illustrator
-    may also be used.
-  </p>
+    <title>{{ page.title }} | {{ site.title }}</title>
 
-  <div class="software-grid">
+    <link rel="stylesheet"
+          href="{{ '/assets/css/style.css' | relative_url }}">
 
-    <div class="software-card">
-      <div class="software-heading">
-        <h3>Inkscape</h3>
-        <span class="recommended">Recommended</span>
-      </div>
+    <link rel="icon"
+          type="image/png"
+          href="{{ '/assets/images/favicon.png' | relative_url }}">
+</head>
 
-      <p>
-        Free and open-source vector graphics editor.
-      </p>
 
-      <div class="resource-links">
-        <a href="https://software.stanford.edu/software/inkscape"
-           target="_blank" rel="noopener">
-          Stanford Resource →
+<body>
+
+<header class="site-header">
+    <div class="site-header-inner">
+
+        <a class="site-title" href="{{ '/' | relative_url }}">
+            Digital Graphics Foundations
         </a>
 
-        <a href="https://inkscape.org/learn/tutorials/"
-           target="_blank" rel="noopener">
-          Official Tutorials →
-        </a>
-      </div>
+        <nav class="top-nav">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/' | relative_url }}#lessons">Lessons</a>
+            <a href="{{ '/' | relative_url }}#software">Software</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main class="page-layout">
+
+    {% if page.lesson %}
+    <div class="lesson-label">
+        Lesson {{ page.lesson }}
+    </div>
+    {% endif %}
+
+    <article class="article">
+        {{ content }}
+    </article>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div>
+            <strong>Digital Graphics Foundations</strong>
+            <p>
+                foundations of digital graphic design.
+            </p>
+        </div>
+
+        <div class="author">
+            Written and maintained by
+            <a href="https://www.linkedin.com/in/hano-alolyan"
+               target="_blank"
+               rel="noopener noreferrer">
+                Alhanouf Alolyan
+            </a>
+        </div>
+
     </div>
 
+</footer>
 
-    <div class="software-card">
-      <div class="software-heading">
-        <h3>Adobe Illustrator</h3>
-      </div>
-
-      <p>
-        Professional vector graphics editor from Adobe.
-      </p>
-
-      <div class="resource-links">
-        <a href="https://uit.stanford.edu/service/techtraining/class/adobe-illustrator-5-essentials-beginners"
-           target="_blank" rel="noopener">
-          Stanford Training →
-        </a>
-
-        <a href="https://helpx.adobe.com/illustrator/tutorials.html"
-           target="_blank" rel="noopener">
-          Official Tutorials →
-        </a>
-      </div>
-    </div>
-
-  </div>
-
-</section>
+</body>
+</html>
