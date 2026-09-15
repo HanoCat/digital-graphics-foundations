@@ -243,7 +243,7 @@ Unlike Union, Difference, or Intersection, the purpose is not simply to keep or 
 ---
 
 <figure>
-    <img src="{{ '/assets/images/lesson03/3_3.png' | relative_url }}"
+    <img src="{{ '/assets/images/lesson03/3_3.jpg' | relative_url }}"
          alt="Comparison of union, difference, intersection, exclusion, and division operations">
     <figcaption>
         Different Boolean operations applied to the same starting shapes.
