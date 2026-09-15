@@ -1,130 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<section class="software-section" id="software">
 
-    <title>{{ page.title }} | {{ site.title }}</title>
+  <h2>Software Tutorials</h2>
 
-    <link rel="stylesheet"
-      href="{{ '/assets/css/style.css' | relative_url }}">
+  <p class="section-intro">
+    Choose the vector graphics editor that works best for you.
+    Inkscape is used for classroom demonstrations, but Adobe Illustrator
+    may also be used.
+  </p>
 
-    <link rel="icon"
-          type="image/png"
-          href="{{ '/assets/images/favicon.png' | relative_url }}">
+  <div class="software-grid">
 
-</head>
+    <div class="software-card">
+      <div class="software-heading">
+        <h3>Inkscape</h3>
+        <span class="recommended">Recommended</span>
+      </div>
 
-<body>
+      <p>
+        Free and open-source vector graphics editor.
+      </p>
 
-<header class="site-header">
-    <div class="site-header-inner">
-
-        <a class="site-title" href="{{ '/' | relative_url }}">
-            Digital Graphics Foundations
+      <div class="resource-links">
+        <a href="https://software.stanford.edu/software/inkscape"
+           target="_blank" rel="noopener">
+          Stanford Resource →
         </a>
 
-        <nav class="top-nav">
-            <a href="{{ '/' | relative_url }}">Home</a>
-        </nav>
-
-    </div>
-</header>
-
-<div class="page-layout">
-
-    <aside class="sidebar">
-
-        <div class="sidebar-section">
-            <h3>Lessons</h3>
-
-            <a href="{{ '/lessons/01-digital-graphics-foundations.html' | relative_url }}">
-                <span>01</span>
-                Foundations of Digital Graphics
-            </a>
-
-            <a href="{{ '/lessons/02-point-line-plane.html' | relative_url }}">
-                <span>02</span>
-                Visual Elements: Point, Line, Shape & Plane
-            </a>
-
-            <a href="{{ '/lessons/comming_soon.html' | relative_url }}">
-                <span>03</span>
-                Vector Geometry & Transformations
-            </a>
-
-            <a href="{{ '/lessons/comming_soon.html' | relative_url }}">
-                <span>04</span>
-                Color & Visual Style
-            </a>
-
-            <a href="{{ '/lessons/comming_soon.html' | relative_url }}">
-                <span>05</span>
-                Principles of Visual Composition
-            </a>
-
-            <a href="{{ '/lessons/comming_soon.html' | relative_url }}">
-                <span>06</span>
-                Typography, Grids & Layout Systems
-            </a>
-
-            <a href="{{ '/lessons/comming_soon.html' | relative_url }}">
-                <span>07</span>
-                Advanced Vector Drawing & Image Integration
-            </a>
-
-            <a href="{{ '/lessons/comming_soon.html' | relative_url }}">
-                <span>08</span>
-                Introduction to Motion Graphics
-            </a>
-
-            <a href="{{ '/lessons/comming_soon.html' | relative_url }}">
-                <span>09</span>
-                Introduction to 3D Graphics & Modeling
-            </a>
-
-        </div>
-
-
-    </aside>
-
-
-    <main class="article">
-
-        {% if page.lesson %}
-        <div class="lesson-label">
-            Lesson {{ page.lesson }}
-        </div>
-        {% endif %}
-
-        {{ content }}
-
-    </main>
-
-</div>
-
-
-<footer class="site-footer">
-
-    <div class="footer-inner">
-
-        <div>
-            <strong>Digital Graphics Foundations</strong>
-            <p>Software-independent foundations of digital graphic design.</p>
-        </div>
-
-        <div class="author">
-            Written and maintained by
-            <a href="https://www.linkedin.com/in/hano-alolyan"
-   target="_blank"
-   rel="noopener noreferrer">
-    Alhanouf Alolyan
-</a>
-        </div>
-
+        <a href="https://inkscape.org/learn/tutorials/"
+           target="_blank" rel="noopener">
+          Official Tutorials →
+        </a>
+      </div>
     </div>
 
-</footer>
 
-</body>
-</html>
+    <div class="software-card">
+      <div class="software-heading">
+        <h3>Adobe Illustrator</h3>
+      </div>
+
+      <p>
+        Professional vector graphics editor from Adobe.
+      </p>
+
+      <div class="resource-links">
+        <a href="https://uit.stanford.edu/service/techtraining/class/adobe-illustrator-5-essentials-beginners"
+           target="_blank" rel="noopener">
+          Stanford Training →
+        </a>
+
+        <a href="https://helpx.adobe.com/illustrator/tutorials.html"
+           target="_blank" rel="noopener">
+          Official Tutorials →
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</section>

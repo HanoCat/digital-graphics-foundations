@@ -61,13 +61,8 @@ body {
 /* ---------------- Main layout ---------------- */
 
 .page-layout {
-    max-width: 1450px;
+    max-width: 900px;
     margin: auto;
-
-    display: grid;
-    grid-template-columns: 310px minmax(0, 850px);
-    gap: 60px;
-
     padding: 55px 32px 90px;
 }
 
@@ -397,4 +392,78 @@ a.lesson-card:hover {
   .course-hero {
     padding: 1.5rem;
   }
+}
+
+/* ---------- Software Tutorials ---------- */
+
+.software-section {
+    margin-top: 4rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--border);
+}
+
+.software-section h2 {
+    margin-top: 0;
+}
+
+.section-intro {
+    max-width: 650px;
+    color: var(--muted);
+    margin-bottom: 1.8rem;
+}
+
+.software-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.software-card {
+    padding: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: #fff;
+}
+
+.software-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.software-heading h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.recommended {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-light);
+    padding: 3px 8px;
+    border-radius: 20px;
+}
+
+.software-card p {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin: 8px 0 18px;
+}
+
+.resource-links {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.resource-links a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.resource-links a:hover {
+    text-decoration: underline;
 }
