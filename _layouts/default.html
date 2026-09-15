@@ -1,183 +1,75 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
 
-<section class="course-hero">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <h1>Digital Graphics Foundations</h1>
+    <title>{{ page.title }} | {{ site.title }}</title>
 
-  <p>
-    Learn the principles behind digital graphics and apply them using
-    the vector editor of your choice.
-  </p>
+    <link rel="stylesheet"
+          href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <p>
-    <strong>Inkscape is used for classroom demonstrations</strong>,
-    but Adobe Illustrator or another suitable vector editor may also be used.
-  </p>
+    <link rel="icon"
+          type="image/png"
+          href="{{ '/assets/images/favicon.png' | relative_url }}">
+</head>
 
-</section>
+<body>
 
+<header class="site-header">
+    <div class="site-header-inner">
 
-<section id="lessons" class="lessons-section">
-
-  <div class="section-heading">
-    <span class="section-label">COURSE CONTENT</span>
-    <h2>Lessons</h2>
-    <p>
-      Explore the foundations of digital graphics, from visual elements
-      and vector geometry to motion and 3D graphics.
-    </p>
-  </div>
-
-
-  <div class="lesson-grid">
-
-    <a class="lesson-card"
-       href="{{ '/lessons/01-digital-graphics-foundations.html' | relative_url }}">
-      <span class="lesson-number">01</span>
-      <strong>Foundations of Digital Graphics</strong>
-      <span>Raster, vector, resolution & digital artwork</span>
-    </a>
-
-
-    <a class="lesson-card"
-       href="{{ '/lessons/02-point-line-plane.html' | relative_url }}">
-      <span class="lesson-number">02</span>
-      <strong>Visual Elements</strong>
-      <span>Point, line, shape & plane</span>
-    </a>
-
-
-    <div class="lesson-card coming-soon">
-      <span class="lesson-number">03</span>
-      <strong>Vector Geometry & Transformations</strong>
-      <span>Coming soon</span>
-    </div>
-
-
-    <div class="lesson-card coming-soon">
-      <span class="lesson-number">04</span>
-      <strong>Color & Visual Style</strong>
-      <span>Coming soon</span>
-    </div>
-
-
-    <div class="lesson-card coming-soon">
-      <span class="lesson-number">05</span>
-      <strong>Principles of Visual Composition</strong>
-      <span>Coming soon</span>
-    </div>
-
-
-    <div class="lesson-card coming-soon">
-      <span class="lesson-number">06</span>
-      <strong>Typography, Grids & Layout Systems</strong>
-      <span>Coming soon</span>
-    </div>
-
-
-    <div class="lesson-card coming-soon">
-      <span class="lesson-number">07</span>
-      <strong>Advanced Vector Drawing & Image Integration</strong>
-      <span>Coming soon</span>
-    </div>
-
-
-    <div class="lesson-card coming-soon">
-      <span class="lesson-number">08</span>
-      <strong>Introduction to Motion Graphics</strong>
-      <span>Coming soon</span>
-    </div>
-
-
-    <div class="lesson-card coming-soon">
-      <span class="lesson-number">09</span>
-      <strong>Introduction to 3D Graphics & Modeling</strong>
-      <span>Coming soon</span>
-    </div>
-
-  </div>
-
-</section>
-
-
-<section class="software-section" id="software">
-
-  <div class="section-heading">
-    <span class="section-label">LEARNING RESOURCES</span>
-    <h2>Software Tutorials</h2>
-
-    <p>
-      You do not need to master one particular application.
-      Choose the vector graphics editor that works best for you.
-    </p>
-  </div>
-
-
-  <div class="software-grid">
-
-    <div class="software-card">
-
-      <div class="software-heading">
-        <h3>Inkscape</h3>
-        <span class="recommended">Recommended</span>
-      </div>
-
-      <p>
-        Free and open-source vector graphics editor used for
-        classroom demonstrations.
-      </p>
-
-      <div class="resource-links">
-
-        <a href="https://software.stanford.edu/software/inkscape"
-           target="_blank"
-           rel="noopener">
-          Stanford Resource →
+        <a class="site-title" href="{{ '/' | relative_url }}">
+            Digital Graphics Foundations
         </a>
 
-        <a href="https://inkscape.org/learn/tutorials/"
-           target="_blank"
-           rel="noopener">
-          Official Tutorials →
-        </a>
+        <nav class="top-nav">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/' | relative_url }}#lessons">Lessons</a>
+            <a href="{{ '/' | relative_url }}#software">Software</a>
+        </nav>
 
-      </div>
+    </div>
+</header>
+
+
+<main class="page-layout">
+
+    {% if page.lesson %}
+    <div class="lesson-label">
+        Lesson {{ page.lesson }}
+    </div>
+    {% endif %}
+
+    <article class="article">
+        {{ content }}
+    </article>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div>
+            <strong>Digital Graphics Foundations</strong>
+            <p>foundations of digital graphic design.</p>
+        </div>
+
+        <div class="author">
+            Written and maintained by
+            <a href="https://www.linkedin.com/in/hano-alolyan"
+               target="_blank"
+               rel="noopener noreferrer">
+                Alhanouf Alolyan
+            </a>
+        </div>
 
     </div>
 
+</footer>
 
-    <div class="software-card">
-
-      <div class="software-heading">
-        <h3>Adobe Illustrator</h3>
-      </div>
-
-      <p>
-        Professional vector graphics editor that may also be
-        used throughout the course.
-      </p>
-
-      <div class="resource-links">
-
-        <a href="https://uit.stanford.edu/service/techtraining/class/adobe-illustrator-5-essentials-beginners"
-           target="_blank"
-           rel="noopener">
-          Stanford Training →
-        </a>
-
-        <a href="https://helpx.adobe.com/illustrator/tutorials.html"
-           target="_blank"
-           rel="noopener">
-          Official Tutorials →
-        </a>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
+</body>
+</html>
