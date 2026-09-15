@@ -57,9 +57,9 @@ Instead of storing every position along a curve individually, the computer can c
 
 Consider a simple curve controlled by three points:
 
-- \(P_0\) — starting point
-- \(P_1\) — control point
-- \(P_2\) — ending point
+- $P_0$ — starting point
+- $P_1$ — control point
+- $P_2$ — ending point
 
 A quadratic Bézier curve can be described by:
 
@@ -69,17 +69,17 @@ $$
 
 where:
 
-<div class="equation">
-  0 ≤ t ≤ 1
-</div>
+$$
+0 \leq t \leq 1
+$$
 
-The value of t represents a position along the curve.
+The value of $t$ represents a position along the curve.
 
-When t=0 the curve begins at \(P_0\).
+When $t=0$, the curve begins at $P_0$.
 
-When t=1 the curve reaches \(P_2\).
+When $t=1$, the curve reaches $P_2$.
 
-The position of \(P_1\) influences the shape of the curve between them.
+The position of $P_1$ influences the shape of the curve between them.
 
 <figure>
     <img src="{{ '/assets/images/lesson03/3_1.png' | relative_url }}"
@@ -176,9 +176,9 @@ These operations are commonly called **Boolean operations** or **path operations
 
 The result becomes one path.
 
-\[
+$$
 A \cup B
-\]
+$$
 
 This is useful when several simple shapes should become one larger form.
 
@@ -188,9 +188,9 @@ This is useful when several simple shapes should become one larger form.
 
 **Difference** subtracts one shape from another.
 
-\[
+$$
 A - B
-\]
+$$
 
 For example, subtracting one circle from another can produce a crescent shape.
 
@@ -202,9 +202,9 @@ The order of the objects matters because one object is being removed from anothe
 
 **Intersection** keeps only the area shared by both shapes.
 
-\[
+$$
 A \cap B
-\]
+$$
 
 Everything outside the overlapping region is removed.
 
@@ -216,9 +216,9 @@ Everything outside the overlapping region is removed.
 
 Conceptually:
 
-\[
+$$
 (A \cup B) - (A \cap B)
-\]
+$$
 
 ---
 
@@ -283,21 +283,21 @@ A **translation** changes the position of an object.
 
 Suppose a point is located at:
 
-\[
+$$
 P=(x,y)
-\]
+$$
 
-If we move it by \(t_x\) horizontally and \(t_y\) vertically, its new position is:
+If we move it by $t_x$ horizontally and $t_y$ vertically, its new position is:
 
-\[
-P'=(x+t_x,\ y+t_y)
-\]
+$$
+P'=(x+t_x,\;y+t_y)
+$$
 
 For example:
 
-\[
+$$
 (2,3)\rightarrow(7,5)
-\]
+$$
 
 The point has moved:
 
@@ -316,34 +316,34 @@ In a graphics editor, dragging an object from one location to another is a visua
 
 For a point:
 
-\[
+$$
 P=(x,y)
-\]
+$$
 
 scaling can be represented as:
 
-\[
-P'=(s_xx,\ s_yy)
-\]
+$$
+P'=(s_xx,\;s_yy)
+$$
 
 where:
 
-- \(s_x\) controls horizontal scaling;
-- \(s_y\) controls vertical scaling.
+- $s_x$ controls horizontal scaling;
+- $s_y$ controls vertical scaling.
 
 If:
 
-\[
+$$
 s_x=s_y
-\]
+$$
 
 the object is scaled equally in both directions.
 
 For example:
 
-\[
+$$
 s_x=s_y=2
-\]
+$$
 
 produces an object that is twice as large.
 
@@ -353,13 +353,13 @@ produces an object that is twice as large.
 
 Scaling becomes particularly important in design because changing width and height independently can **distort** an object.
 
-Consider an object with width \(W\) and height \(H\).
+Consider an object with width $W$ and height $H$.
 
 Its aspect ratio can be written as:
 
-\[
+$$
 r=\frac{W}{H}
-\]
+$$
 
 If the width and height are scaled by the same factor, this ratio remains unchanged.
 
@@ -398,17 +398,17 @@ Rotation depends on two important properties:
 - the **angle of rotation**;
 - the **centre of rotation**.
 
-For a point \((x,y)\) rotated around the origin by an angle \(\theta\):
+For a point $(x,y)$ rotated around the origin by an angle $\theta$:
 
-\[
-x'=x\cos\theta-y\sin\theta
-\]
+$$
+x'=x\cos(\theta)-y\sin(\theta)
+$$
 
-\[
-y'=x\sin\theta+y\cos\theta
-\]
+$$
+y'=x\sin(\theta)+y\cos(\theta)
+$$
 
-Again, you do not need to calculate this equation manually.
+Again, you do not need to calculate these equations manually.
 
 The important idea is:
 
@@ -416,9 +416,9 @@ The important idea is:
 
 For example, rotating an object by:
 
-\[
+$$
 \theta=90^\circ
-\]
+$$
 
 changes its orientation but does not automatically change its size or proportions.
 
@@ -482,12 +482,11 @@ The terminology used in mathematics and the terminology shown in graphics softwa
 
 The interface may change between different graphics applications, but the underlying concepts remain transferable.
 
-
 ---
+
 # In-Class Lab: Create a Simple Vector Leaf
----
-In this activity, you will create a simple **leaf icon** while applying the main concepts from this lesson.
 
+In this activity, you will create a simple **leaf icon** while applying the main concepts from this lesson.
 
 ## Steps
 
@@ -495,7 +494,7 @@ In this activity, you will create a simple **leaf icon** while applying the main
 
 2. Use the **Node Tool** and Bézier handles to reshape the curves until the leaf has a smooth form.
 
-3. Add a simple shape or path to the leaf and experiment with one **Boolean operation**, such as:
+3. Add a simple shape or path to the leaf and apply **one Boolean operation**, such as:
    - Union,
    - Difference, or
    - Intersection.
