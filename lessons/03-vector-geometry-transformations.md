@@ -452,13 +452,13 @@ The interface may change between different graphics applications, but the underl
 
 # In-Class Lab: 
 
-In this activity, you will create a simple **leaf icon** while applying the main concepts from this lesson.
+In this activity, you will apply the main concepts from this lesson.
 
 ## Steps
 
-1. Use the **Bézier/Pen Tool** to draw the basic outline of a leaf.
+1. Use the **Bézier/Pen Tool** to draw the basic outline.
 
-2. Use the **Node Tool** and Bézier handles to reshape the curves until the leaf has a smooth form.
+2. Use the **Node Tool** and Bézier handles to reshape the curves until has a smooth form.
 
 3. Add a simple shape or path to the leaf and apply **one Boolean operation**, such as:
    - Union,
@@ -471,8 +471,6 @@ In this activity, you will create a simple **leaf icon** while applying the main
 
 6. **Rotate** another copy to create a small arrangement of leaves.
 
-7. Use **Align and Distribute** to organise your final objects.
-
-8. Save your editable work as an **SVG file**.
+7. Save your editable work as an **SVG file**.
 
 ---
