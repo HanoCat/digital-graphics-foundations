@@ -1,5 +1,7 @@
 ---
-title: "Lesson 3: colour & Visual Style"
+layout: default
+title: "colour & Visual Style"
+lesson: 4
 ---
 
 # colour & Visual Style
