@@ -77,7 +77,7 @@ title: Home
 
     <!-- Lesson 04 -->
     <a class="lesson-card"
-       href="{{ '/lessons/04-colour-visual-style.html' | relative_url }}">
+       href="{{ '/lessons/04-color-visual-style.html' | relative_url }}">
 
       <span class="lesson-number">04</span>
 
