@@ -76,15 +76,16 @@ title: Home
 
 
     <!-- Lesson 04 -->
-    <div class="lesson-card coming-soon">
+    <a class="lesson-card"
+       href="{{ '/lessons/04-color-visual-style.html' | relative_url }}">
 
       <span class="lesson-number">04</span>
 
       <strong>Color & Visual Style</strong>
 
-      <span>Coming soon</span>
+      <span>Colors fundamentals and Color in Digital Design</span>
 
-    </div>
+    </a>
 
 
     <!-- Lesson 05 -->
