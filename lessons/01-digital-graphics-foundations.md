@@ -54,7 +54,7 @@ those images in fundamentally different ways.
 A **raster graphic** is constructed from a grid of small picture elements
 called **pixels**.
 
-Each pixel stores information about its appearance, such as its color.
+Each pixel stores information about its appearance, such as its colour.
 
 Digital photographs are a common example of raster graphics.
 
@@ -74,7 +74,7 @@ may become visible and the image may lose apparent sharpness.
 - photographs;
 - detailed textures;
 - scanned images;
-- images containing complex variations in color.
+- images containing complex variations in colour.
 
 ---
 
@@ -92,7 +92,7 @@ These objects may include:
 - fills;
 - strokes.
 
-Instead of storing the color of every individual pixel, a vector file stores
+Instead of storing the colour of every individual pixel, a vector file stores
 information describing the objects that form the graphic.
 
 For example, a circle can be described using properties such as its position,
@@ -237,7 +237,7 @@ The fill describes the appearance of the interior of a closed shape.
 
 A fill might use:
 
-- a solid color;
+- a solid colour;
 - a gradient;
 - a pattern;
 - transparency.
@@ -248,7 +248,7 @@ The stroke describes the visible appearance of a path.
 
 Stroke properties can include:
 
-- color;
+- colour;
 - width;
 - line style;
 - joins;
@@ -304,7 +304,7 @@ Possible subjects include:
 Your design should contain:
 
 1. at least three different geometric shapes;
-2. different fill colors;
+2. different fill colours;
 3. a visible stroke on at least two objects;
 4. objects of different sizes;
 5. objects that have been repositioned and arranged into a recognizable image.

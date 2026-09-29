@@ -69,7 +69,7 @@ When a point moves through space, we can think of its path as a **line**.
 A line has length and direction. In visual graphics, it can also have properties such as:
 
 - thickness,
-- color,
+- colour,
 - curvature,
 - style,
 - and opacity.
@@ -235,7 +235,7 @@ The objective is not to create a detailed illustration. Instead, focus on unders
 1. Use the **Bezier/Pen tool** to create a straight line.
 2. Open **Fill and Stroke**.
 3. Experiment with the line's:
-   - stroke color,
+   - stroke colour,
    - stroke width,
    - and style.
 4. Create four examples:

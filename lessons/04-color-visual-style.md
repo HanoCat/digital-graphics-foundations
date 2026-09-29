@@ -1,24 +1,24 @@
 ---
-title: "Lesson 3: Color & Visual Style"
+title: "Lesson 3: colour & Visual Style"
 ---
 
-# Color & Visual Style
+# colour & Visual Style
 
-Color is one of the fundamental elements of visual communication.
+colour is one of the fundamental elements of visual communication.
 
-In digital graphics, color is not only decorative. It helps designers create **contrast, hierarchy, emphasis, unity, and visual identity**. Color choices influence what viewers notice first, how elements are grouped, and how a design is perceived.
+In digital graphics, colour is not only decorative. It helps designers create **contrast, hierarchy, emphasis, unity, and visual identity**. colour choices influence what viewers notice first, how elements are grouped, and how a design is perceived.
 
 ---
 
-## 1. Understanding Color
+## 1. Understanding colour
 
-A color can be described using three basic properties:
+A colour can be described using three basic properties:
 
-- **Hue:** the identity of the color, such as red, blue, green, or yellow.
-- **Saturation:** the intensity of the color. High saturation appears vivid; low saturation appears muted or gray.
-- **Value:** how light or dark the color appears.
+- **Hue:** the identity of the colour, such as red, blue, green, or yellow.
+- **Saturation:** the intensity of the colour. High saturation appears vivid; low saturation appears muted or gray.
+- **Value:** how light or dark the colour appears.
 
-Together, **hue, saturation, and value** allow designers to create and control a wide range of colors.
+Together, **hue, saturation, and value** allow designers to create and control a wide range of colours.
 
 <figure>
     <img src="{{ '/assets/images/lesson04/4_1.png' | relative_url }}">
@@ -28,41 +28,41 @@ Together, **hue, saturation, and value** allow designers to create and control a
 </figure>
 ---
 
-## 2. Color Relationships & Schemes
+## 2. colour Relationships & Schemes
 
-Colors influence one another. The **color wheel** helps designers understand these relationships.
+colours influence one another. The **colour wheel** helps designers understand these relationships.
 
-In the traditional color wheel:
+In the traditional colour wheel:
 
-- **Primary colors:** Red, Yellow, Blue
-- **Secondary colors:** Orange, Green, Violet
+- **Primary colours:** Red, Yellow, Blue
+- **Secondary colours:** Orange, Green, Violet
 
-Designers can use these relationships to build a **color scheme**:
+Designers can use these relationships to build a **colour scheme**:
 
 - **Monochromatic:** variations of one hue.
-- **Analogous:** colors located next to each other on the color wheel.
-- **Complementary:** colors located opposite each other, creating strong contrast.
-- **Triadic:** three colors approximately equally spaced around the color wheel.
+- **Analogous:** colours located next to each other on the colour wheel.
+- **Complementary:** colours located opposite each other, creating strong contrast.
+- **Triadic:** three colours approximately equally spaced around the colour wheel.
 
 <figure>
     <img src="{{ '/assets/images/lesson04/4_2.png' | relative_url }}">
     <figcaption>
-        Color wheel showing the four schemes 
+        colour wheel showing the four schemes 
     </figcaption>
 </figure>
 
 
-These schemes provide a starting point for selecting colors, but designers can adjust saturation and value to create different visual effects.
+These schemes provide a starting point for selecting colours, but designers can adjust saturation and value to create different visual effects.
 
 ---
 
-## 3. Color in Digital Design
+## 3. colour in Digital Design
 
 ### Visual Hierarchy
 
-Color can guide the viewer's attention.
+colour can guide the viewer's attention.
 
-A contrasting or highly saturated color can emphasize an important element. For example, a game interface might use neutral colors for most controls and a stronger accent color for the **PLAY** button.
+A contrasting or highly saturated colour can emphasize an important element. For example, a game interface might use neutral colours for most controls and a stronger accent colour for the **PLAY** button.
 
 This creates **visual hierarchy**: some elements attract attention before others.
 
@@ -77,16 +77,16 @@ This creates **visual hierarchy**: some elements attract attention before others
 
 ### RGB and CMYK
 
-Color is represented differently depending on its intended output.
+colour is represented differently depending on its intended output.
 
-**RGB (Red, Green, Blue)** is an additive color model used primarily for screens, including:
+**RGB (Red, Green, Blue)** is an additive colour model used primarily for screens, including:
 
 - games,
 - websites,
 - interfaces,
 - and digital illustrations.
 
-**CMYK (Cyan, Magenta, Yellow, Key/Black)** is a subtractive color model primarily used for printed graphics.
+**CMYK (Cyan, Magenta, Yellow, Key/Black)** is a subtractive colour model primarily used for printed graphics.
 
 Because this course focuses mainly on **digital graphics**, we will primarily work with RGB.
 
@@ -102,13 +102,13 @@ Because this course focuses mainly on **digital graphics**, we will primarily wo
 
 ---
 
-## 4. Color & Visual Style
+## 4. colour & Visual Style
 
 A **visual style** is the consistent visual character of a design.
 
 It can be influenced by:
 
-- color,
+- colour,
 - shapes,
 - lines,
 - typography,
@@ -118,10 +118,10 @@ It can be influenced by:
 
 For example:
 
-**Bright colors + rounded shapes + simple icons**  
+**Bright colours + rounded shapes + simple icons**  
 can produce a playful visual style.
 
-**Dark colors + sharp geometric shapes + high contrast**  
+**Dark colours + sharp geometric shapes + high contrast**  
 can create a very different visual identity.
 
 <figure>
@@ -133,35 +133,35 @@ can create a very different visual identity.
 
 The key principle is **consistency**. Elements belonging to the same design should appear visually related.
 
-### Creating a Color Palette
+### Creating a colour Palette
 
-A **color palette** is a selected group of colors used consistently throughout a design.
+A **colour palette** is a selected group of colours used consistently throughout a design.
 
 A simple palette may contain:
 
-- one dominant color,
-- one or two supporting colors,
-- one accent color,
-- and neutral colors.
+- one dominant colour,
+- one or two supporting colours,
+- one accent colour,
+- and neutral colours.
 
 
 <figure>
     <img src="{{ '/assets/images/lesson04/4_6.png' | relative_url }}">
     <figcaption>
-        Example 5-color palette
+        Example 5-colour palette
     </figcaption>
 </figure>
 
 
-A limited and consistent palette can create a stronger visual identity. Using more colors does not necessarily create a better design.
+A limited and consistent palette can create a stronger visual identity. Using more colours does not necessarily create a better design.
 
 ---
 
-# In-Class Practice — Color & Visual Style
+# In-Class Practice — colour & Visual Style
 
 Open **Inkscape** and complete the following activity.
 
-### 1. Explore Color
+### 1. Explore colour
 
 Create several identical shapes and experiment with:
 
@@ -169,7 +169,7 @@ Create several identical shapes and experiment with:
 - different **saturation** levels,
 - and light/dark **values**.
 
-### 2. Create Color Schemes
+### 2. Create colour Schemes
 
 Using simple shapes, create examples of:
 
@@ -179,10 +179,10 @@ Using simple shapes, create examples of:
 
 Create a small graphic or simple game-interface element using basic vector shapes.
 
-Choose a palette of **4–6 colors** and demonstrate:
+Choose a palette of **4–6 colours** and demonstrate:
 
-- consistent color use,
+- consistent colour use,
 - contrast and visual hierarchy,
-- one accent color.
+- one accent colour.
 
-Duplicate your design and create a **second version with a different color palette**.
+Duplicate your design and create a **second version with a different colour palette**.
