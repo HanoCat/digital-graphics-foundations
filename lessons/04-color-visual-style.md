@@ -157,6 +157,23 @@ A simple palette may contain:
 
 A limited and consistent palette can create a stronger visual identity. Using more colours does not necessarily create a better design.
 
+### Color Vision & Accessibility
+
+Not everyone perceives color in the same way. **Color vision deficiency (color blindness)** can make some colors difficult to distinguish, particularly certain combinations of red, green, or blue.
+
+For this reason, designers should **not rely on color alone** to communicate important information. Contrast, text, icons, patterns, and shapes can also help make a design understandable.
+
+#### Try It
+
+Use the **Coblis Color Blindness Simulator** to explore how the same design may appear with different types of color vision deficiency:
+
+[Open the Color Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/)
+
+Upload an image of your design and compare the different simulations.
+
+**Think:** Does your design still communicate clearly when some colors are difficult to distinguish?
+
+
 ---
 
 # In-Class Practice — colour & Visual Style
