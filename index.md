@@ -87,17 +87,18 @@ title: Home
 
     </a>
 
-
     <!-- Lesson 05 -->
-    <div class="lesson-card coming-soon">
+    <a class="lesson-card"
+       href="{{ '/lessons/05-visual-composition.html' | relative_url }}">
 
       <span class="lesson-number">05</span>
 
       <strong>Principles of Visual Composition</strong>
 
-      <span>Coming soon</span>
+      <span>Arrangement of Visual Elements within a SPACE!</span>
 
-    </div>
+    </a>
+
 
 
     <!-- Lesson 06 -->
