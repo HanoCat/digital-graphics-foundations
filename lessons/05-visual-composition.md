@@ -150,7 +150,6 @@ Your design should demonstrate at least **four** of the following:
 - Alignment
 - Visual hierarchy
 - Contrast
-- Repetition / rhythm
 - Proximity / negative space
 
 Keep the composition simple. The goal is to demonstrate **intentional arrangement**, not complexity.
