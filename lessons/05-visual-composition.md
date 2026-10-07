@@ -148,7 +148,6 @@ Your design should demonstrate at least **four** of the following:
 
 - Balance
 - Alignment
-- Visual hierarchy
 - Contrast
 - Proximity / negative space
 
