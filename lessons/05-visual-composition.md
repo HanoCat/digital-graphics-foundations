@@ -149,6 +149,6 @@ Your design should demonstrate at least **four** of the following:
 - Balance
 - Alignment
 - Contrast
-- Proximity / negative space
+- Proximity / negative space..
 
 Keep the composition simple. The goal is to demonstrate **intentional arrangement**, not complexity.
