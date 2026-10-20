@@ -99,18 +99,18 @@ title: Home
 
     </a>
 
-
-
     <!-- Lesson 06 -->
-    <div class="lesson-card coming-soon">
+    <a class="lesson-card"
+       href="{{ '/lessons/06-Typography-Grids-Layout-Systems.html' | relative_url }}">
 
       <span class="lesson-number">06</span>
 
       <strong>Typography, Grids & Layout Systems</strong>
 
-      <span>Coming soon</span>
+      <span>Text, Images, Shapes, and Empty Space.</span>
 
-    </div>
+    </a>
+
 
 
     <!-- Lesson 07 -->
