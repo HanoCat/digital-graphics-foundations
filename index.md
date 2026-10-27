@@ -110,34 +110,22 @@ title: Home
       <span>Text, Images, Shapes, and Empty Space.</span>
 
     </a>
-
-
-
+    
     <!-- Lesson 07 -->
-    <div class="lesson-card coming-soon">
+    <a class="lesson-card"
+       href="{{ '/lessons/07-Introduction-Motion-Graphics.html' | relative_url }}">
 
       <span class="lesson-number">07</span>
 
-      <strong>Advanced Vector Drawing & Image Integration</strong>
+      <strong>Introduction to Motion Graphics</strong>
 
-      <span>Coming soon</span>
+      <span>Frames, Time, and Frame Rate.</span>
 
-    </div>
+    </a>
+
 
 
     <!-- Lesson 08 -->
-    <div class="lesson-card coming-soon">
-
-      <span class="lesson-number">08</span>
-
-      <strong>Introduction to Motion Graphics</strong>
-
-      <span>Coming soon</span>
-
-    </div>
-
-
-    <!-- Lesson 09 -->
     <div class="lesson-card coming-soon">
 
       <span class="lesson-number">09</span>
