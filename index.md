@@ -123,18 +123,17 @@ title: Home
 
     </a>
 
-
-
     <!-- Lesson 08 -->
-    <div class="lesson-card coming-soon">
+    <a class="lesson-card"
+       href="{{ '/lessons/08-3D-Graphics-Modeling.html' | relative_url }}">
 
-      <span class="lesson-number">09</span>
+      <span class="lesson-number">08</span>
 
       <strong>Introduction to 3D Graphics & Modeling</strong>
 
-      <span>Coming soon</span>
+      <span>The basic ideas behind creating and displaying 3D objects</span>
 
-    </div>
+    </a>
 
   </div>
 
