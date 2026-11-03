@@ -127,6 +127,7 @@ For example, the same sphere can look like plastic or polished metal depending o
 
 ---
 
+
 ## 5. Camera View and Transformation Matrices
 
 A 3D scene contains objects positioned in three-dimensional space. However, a computer screen displays a two-dimensional image.
@@ -146,11 +147,6 @@ A 3D point passes through four main transformations:
 
 For example, imagine a cube in a video game. The model transformation determines where the cube is placed. The view transformation determines where the cube appears relative to the camera. The projection transformation determines how its depth affects its appearance.
 
-<figure>
-    <img src="{{ '/assets/images/lesson08/8_5.png' | relative_url }}" alt="Model, view, projection and viewport transformation pipeline">
-    <figcaption>From 3D object coordinates to 2D screen coordinates</figcaption>
-</figure>
-
 ---
 
 ### 5.2 Why Do We Use Matrices?
@@ -167,12 +163,15 @@ In 3D graphics, matrices are used to:
 
 A point in 3D space normally has three coordinates:
 
+<div class="math-display">
 $$
 p=(x,y,z)
 $$
+</div>
 
 To use translation and other transformations consistently with matrices, we introduce an additional coordinate called **w**.
 
+<div class="math-display">
 $$
 p=
 \begin{bmatrix}
@@ -182,6 +181,7 @@ z\\
 1
 \end{bmatrix}
 $$
+</div>
 
 This representation is called **homogeneous coordinates**.
 
@@ -197,6 +197,7 @@ Translation changes the position of an object without changing its size or orien
 
 The translation matrix is:
 
+<div class="math-display">
 $$
 T=
 \begin{bmatrix}
@@ -206,6 +207,7 @@ T=
 0&0&0&1
 \end{bmatrix}
 $$
+</div>
 
 Where:
 
@@ -217,15 +219,21 @@ Where:
 
 Suppose a point is located at:
 
+<div class="math-display">
 $$
 p=
 \begin{bmatrix}
-1\\2\\3\\1
+1\\
+2\\
+3\\
+1
 \end{bmatrix}
 $$
+</div>
 
 We want to move it by $(2,1,0)$.
 
+<div class="math-display">
 $$
 T=
 \begin{bmatrix}
@@ -235,15 +243,21 @@ T=
 0&0&0&1
 \end{bmatrix}
 $$
+</div>
 
 Multiplying the matrix by the point gives:
 
+<div class="math-display">
 $$
 Tp=
 \begin{bmatrix}
-3\\3\\3\\1
+3\\
+3\\
+3\\
+1
 \end{bmatrix}
 $$
+</div>
 
 The new position is **(3, 3, 3)**.
 
@@ -255,6 +269,7 @@ The new position is **(3, 3, 3)**.
 
 Scaling changes the size of an object along one or more axes.
 
+<div class="math-display">
 $$
 S=
 \begin{bmatrix}
@@ -264,6 +279,7 @@ s_x&0&0&0\\
 0&0&0&1
 \end{bmatrix}
 $$
+</div>
 
 Where $s_x$, $s_y$, and $s_z$ are the scaling factors.
 
@@ -275,6 +291,7 @@ Where $s_x$, $s_y$, and $s_z$ are the scaling factors.
 
 If a point is $(2,1,3)$ and we scale every coordinate by 2:
 
+<div class="math-display">
 $$
 S=
 \begin{bmatrix}
@@ -284,15 +301,21 @@ S=
 0&0&0&1
 \end{bmatrix}
 $$
+</div>
 
 The result is:
 
+<div class="math-display">
 $$
 Sp=
 \begin{bmatrix}
-4\\2\\6\\1
+4\\
+2\\
+6\\
+1
 \end{bmatrix}
 $$
+</div>
 
 > Scaling multiplies each coordinate by its corresponding scaling factor.
 
@@ -306,6 +329,7 @@ In 3D graphics, objects can rotate around the **X, Y, or Z axis**.
 
 For rotation around the Z-axis:
 
+<div class="math-display">
 $$
 R_z(\theta)=
 \begin{bmatrix}
@@ -315,6 +339,7 @@ R_z(\theta)=
 0&0&0&1
 \end{bmatrix}
 $$
+</div>
 
 Where $\theta$ is the rotation angle.
 
@@ -322,12 +347,15 @@ Where $\theta$ is the rotation angle.
 
 Recall:
 
+<div class="math-display">
 $$
 \cos90^\circ=0,\qquad \sin90^\circ=1
 $$
+</div>
 
 Therefore:
 
+<div class="math-display">
 $$
 R_z(90^\circ)=
 \begin{bmatrix}
@@ -337,19 +365,28 @@ R_z(90^\circ)=
 0&0&0&1
 \end{bmatrix}
 $$
+</div>
 
 Applying this to the point $(1,0,0)$ produces:
 
+<div class="math-display">
 $$
-R_z
+R_z(90^\circ)
 \begin{bmatrix}
-1\\0\\0\\1
+1\\
+0\\
+0\\
+1
 \end{bmatrix}
 =
 \begin{bmatrix}
-0\\1\\0\\1
+0\\
+1\\
+0\\
+1
 \end{bmatrix}
 $$
+</div>
 
 The point moves from **(1, 0, 0)** to **(0, 1, 0)**.
 
@@ -361,21 +398,27 @@ The translation, scaling, and rotation matrices can be combined into a **Model M
 
 The model matrix transforms a point from its local object coordinates into world coordinates.
 
+<div class="math-display">
 $$
 p_{world}=Mp_{local}
 $$
+</div>
 
 The **View Matrix (V)** then transforms the world coordinates into camera coordinates.
 
+<div class="math-display">
 $$
 p_{camera}=Vp_{world}
 $$
+</div>
 
 Combining both:
 
+<div class="math-display">
 $$
 p_{camera}=VMp_{local}
 $$
+</div>
 
 The view matrix describes the world from the camera's position and orientation.
 
@@ -406,9 +449,11 @@ Object size does not decrease with distance. This is useful for technical drawin
 
 The combined transformation is:
 
+<div class="math-display">
 $$
 p_{clip}=PVMp_{local}
 $$
+</div>
 
 Here:
 
@@ -430,7 +475,6 @@ For perspective projection, the resulting coordinates are divided by their homog
 4. Calculate a simple 90° rotation around the Z-axis.
 5. Explain the difference between **perspective and orthographic projection**.
 6. Remember the transformation order: **Model → View → Projection → Viewport**.
-
 
 ### Quick Practice
 
